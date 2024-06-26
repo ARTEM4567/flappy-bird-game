@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+.bg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(255,185,81);
+  background: linear-gradient(135deg, rgba(255,185,81,1) 0%, rgba(176,17,17,1) 100%);
+}
+
+.dialog{
+  position: fixed;
+  z-index: 10;
+  background-color: rgb(255, 255, 255);
+  padding: 100px;
+  border-radius: 20px;
+  border: orange 3px solid;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.dialog p{
+  font-size: 30px;
+  margin: 0;
+  font-weight: 600;
+  color: black;
+}
+
+#startButton{
+  margin-top: 40px;
+  background-color: white;
+  cursor: pointer;
+  border: orange 3px solid;
+  color: black;
+  font-size: 30px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#canvas{
+  border-radius: 20px;
+}
